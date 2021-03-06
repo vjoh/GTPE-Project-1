@@ -110,5 +110,5 @@ SSH into the control node and follow the steps below:
   become: true
   tasks:
 ```
-- In order to specify which machine to install the ELK server on versus which to install Filebeat on we have two seperate playbooks. The install-elk.yml file specifically handles installing an instance of Elasticstash, as opposed to the filebeat-playbook.yml that specifically install Filebeat on the Web-1 and 2 VM.
+- In order to specify which machine to install the ELK server on versus which to install Filebeat on, we have two seperate playbooks. The install-elk.yml file specifically handles installing an instance of Elasticstash, as opposed to the filebeat-playbook.yml that specifically installs Filebeat on the Web-1 and 2 VM.
 - Navigate to `http://<Elk-VM IP>:5601/app/kibana` to check that the installation worked as expected.
